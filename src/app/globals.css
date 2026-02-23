@@ -77,3 +77,116 @@ nav {
     display: none;
   }
 }
+
+/* Projects section */
+.projects,
+.about {
+  padding: 60px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.projects-title,
+.about-title {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.project-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+/* About section */
+.about-content {
+  font-size: 20px;
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+.team-container {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  gap: 10px;
+}
+
+.person-card {
+  width: calc(300px);
+  height: auto;
+  /* border: 1px solid gray; */
+}
+
+.person-card h4,
+.person-card h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+
+.person-card h4 {
+  padding: 10px 0;
+  color: #0a0a0a;
+  font-size: 1.8em;
+}
+
+.person-card h5 {
+  color: #8c8c8c;
+  font-size: 1.1em;
+}
+
+.person-card p {
+  padding: 10px 0;
+  font-size: 1.3em;
+}
+
+.person-card button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+}
+
+.person-card button:hover {
+  background: #ccc;
+}
+
+
+@media (max-width: 735px) {
+  .team-container {
+    justify-content: center;
+  }
+}
