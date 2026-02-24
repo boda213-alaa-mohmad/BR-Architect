@@ -31,7 +31,7 @@ export default function About() {
 
   return (
     <section className="about">
-      <h2 className="about-title">About</h2>
+      <h2 className="about-title title">About</h2>
       <div className="about-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -75,3 +75,4 @@ export default function About() {
     </section>
   );
 }
+

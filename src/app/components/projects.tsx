@@ -12,19 +12,19 @@ const projects: Project[] = [
   },
   {
     title: "Brick House",
-    image: "https://www.w3schools.com/w3images/house5.jpg",
+    image: "https://www.w3schools.com/w3images/house2.jpg",
   },
   {
     title: "Renovated",
-    image: "https://www.w3schools.com/w3images/house5.jpg",
+    image: "https://www.w3schools.com/w3images/house3.jpg",
   },
   {
     title: "Barn House",
-    image: "https://www.w3schools.com/w3images/house5.jpg",
+    image: "https://www.w3schools.com/w3images/house4.jpg",
   },
   {
     title: "Summer House",
-    image: "https://www.w3schools.com/w3images/house5.jpg",
+    image: "https://www.w3schools.com/w3images/house2.jpg",
   },
   {
     title: "Brick House",
@@ -32,18 +32,18 @@ const projects: Project[] = [
   },
   {
     title: "Renovated",
-    image: "https://www.w3schools.com/w3images/house5.jpg",
+    image: "https://www.w3schools.com/w3images/house4.jpg",
   },
   {
     title: "Barn House",
-    image: "https://www.w3schools.com/w3images/house5.jpg",
+    image: "https://www.w3schools.com/w3images/house3.jpg",
   },
 ];
 
 export default function Projects() {
   return (
     <section className="projects">
-      <h3 className="projects-title">Projects</h3>
+      <h3 className="projects-title title">Projects</h3>
 
       <div className="projects-grid">
         {projects.map((project, index) => (
